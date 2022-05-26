@@ -1,0 +1,16 @@
+<HomeScreen>
+    name: 'home screen'
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDLabel:
+            text: "Home screen"
+            halign: "center"
+
+
+        Button:
+            text: "go download screen"
+            on_release:
+                app.root.current = 'download_screen'
+                # app.root.transition = FadeTransition(duration=1.2)

@@ -1,0 +1,15 @@
+<DownloadScreen>
+    name: 'download_screen'
+
+    MDBoxLayout:
+        orientation: 'vertical'
+
+        MDLabel:
+            text: "Download screen"
+            halign: "center"
+
+        Button:
+            text: 'go home screen'
+            on_press:
+                app.root.current = 'home screen'
+                # root.manager.transition.direction = "right"
